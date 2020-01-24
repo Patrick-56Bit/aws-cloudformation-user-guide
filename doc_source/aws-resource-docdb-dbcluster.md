@@ -133,6 +133,8 @@ Constraints:
 + Must be from 1 to 63 letters or numbers\.
 + The first character must be a letter\.
 + Cannot be a reserved word for the chosen database engine\.
++ Cannot use the dash \(-\) character\.
+
 *Required*: Conditional  
 *Type*: String  
 *Update requires*: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-replacement)
